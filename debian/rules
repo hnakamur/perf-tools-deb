@@ -1,0 +1,34 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+# Uncomment this to turn on verbose mode.
+export DH_VERBOSE=1
+
+DEST_DIR := $(CURDIR)/debian/perf-tools-unstable
+FILES := $(wildcard bin/*)
+MANPAGES := $(wildcard man/man8/*)
+
+%:
+	dh $@
+
+override_dh_auto_test:
+	# nothing for now
+
+override_dh_auto_build:
+	# nothing for now
+
+
+override_dh_installman:
+	mkdir -p $(DEST_DIR)/usr/share/man/man8/
+	for eachMan in $(MANPAGES) ; do \
+	    manPage=`basename $$eachMan | cut -d "." -f1`; \
+	    cp $$eachMan $(DEST_DIR)/usr/share/man/man8/$$manPage-perf.8 ; \
+	done
+
+override_dh_auto_install:
+	mkdir -p $(DEST_DIR)/usr/sbin
+	for eachFile in $(FILES) ; do \
+	    cleanFile=`basename $$eachFile`; \
+	    cp $$eachFile  $(DEST_DIR)/usr/sbin/$$cleanFile-perf; \
+	done
+

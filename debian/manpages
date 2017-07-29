@@ -1,0 +1,10 @@
+man/man8/bitesize.8
+man/man8/execsnoop.8
+man/man8/funccount.8
+man/man8/functrace.8
+man/man8/iolatency.8
+man/man8/iosnoop.8
+man/man8/kprobe.8
+man/man8/opensnoop.8
+man/man8/perf-stat-hist.8
+man/man8/reset-ftrace.8

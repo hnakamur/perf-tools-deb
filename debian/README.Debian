@@ -1,0 +1,17 @@
+Starting with version 0.0.1~20160212+git0c13e83-2, all binary files
+have been renamed to $filename-perf suffix.
+
+For example: execsnoop => execsnoop-perf
+
+Similarly, the manpages have been renamed. This is done to accommodate
+users who would like to use perf-tools-unstable, parallely with the
+eBPF Compiler Collection Tools from the bpfcc package.
+
+Both upstreams work closely on the projects, thus the common names.
+
+ -- Ritesh Raj Sarraf <rrs@debian.org>  Thu, 29 Dec 2016 23:37:51 +0530
+
+FUNCTION_PROFILER is not defined in Debian's 3.16.0-4, so
+/usr/bin/funccount can't be executed.
+
+ -- Sebastien Delafond <seb@debian.org>, Fri, 12 Feb 2016 08:58:49 +0100

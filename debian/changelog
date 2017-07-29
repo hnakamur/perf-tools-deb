@@ -1,0 +1,84 @@
+perf-tools-unstable (0.0.1~20160212+git0c13e83-2ubuntu2) artful; urgency=medium
+
+  * No-change rebuild against binutils 2.29
+
+ -- Steve Langasek <steve.langasek@ubuntu.com>  Sat, 29 Jul 2017 10:40:14 -0700
+
+perf-tools-unstable (0.0.1~20160212+git0c13e83-2ubuntu1) zesty; urgency=medium
+
+  * Merge from Debian unstable.  Remaining changes:
+    - Use linux-tools instead of linux-perf as Ubuntu doesn't
+      provide it as yet.
+
+ -- Bhavani Shankar <bhavi@ubuntu.com>  Tue, 03 Jan 2017 10:57:30 +0530
+
+perf-tools-unstable (0.0.1~20160212+git0c13e83-2) unstable; urgency=medium
+
+  [ Ritesh Raj Sarraf ]
+  * [1862696] Switch binary and manpage names, appended with 'perf'
+    keyword
+  * [fcafea3] Drop shlibs:Depends. Not needed here
+  * [ef29f7a] Add myself to Maintainers
+  * [dccf275] Use https in Vcs URL
+  * [6f1841e] Install to sbin/ folder. These commands need super-user
+    privileges
+  * [3f34a60] Update README.Debian with details about file name change
+  * [2c185ad] Also add a NEWS entry
+
+  [ Sébastien Delafond ]
+  * [8d66aa6] Taking myself out of the Uploaders: field
+
+ -- Ritesh Raj Sarraf <rrs@debian.org>  Fri, 30 Dec 2016 21:58:24 +0530
+
+perf-tools-unstable (0.0.1~20160212+git0c13e83-1ubuntu1) yakkety; urgency=medium
+
+  * Change dependency on linux-perf back to linux-tools since
+    Ubuntu doesn't currently have a linux-perf package
+
+ -- Jeremy Bicha <jbicha@ubuntu.com>  Mon, 15 Aug 2016 13:54:45 -0400
+
+perf-tools-unstable (0.0.1~20160212+git0c13e83-1) unstable; urgency=medium
+
+  * Import new upstream version (Closes: #813769)
+  * Document in README.Debian that /usr/bin/funccount can't be used
+    (Comment: #779810)
+
+ -- Sebastien Delafond <seb@debian.org>  Fri, 12 Feb 2016 09:02:18 +0100
+
+perf-tools-unstable (0.0.1~20150130+git85414b0-2) unstable; urgency=medium
+
+  * Update dependency from linux-tools to linux-perf (Closes: #795090)
+
+ -- Sebastien Delafond <seb@debian.org>  Mon, 10 Aug 2015 15:59:09 +0200
+
+perf-tools-unstable (0.0.1~20150130+git85414b0-1) unstable; urgency=medium
+
+  * New upstream version
+  * Bump-up Standards-version
+
+ -- Sebastien Delafond <seb@debian.org>  Wed, 24 Jun 2015 22:44:01 +0200
+
+perf-tools-unstable (0.0.1~20140723+git942be0b-4) unstable; urgency=medium
+
+  * Record conflict with ubuntu-dev-tools (Closes: #767556)
+
+ -- Sebastien Delafond <seb@debian.org>  Sat, 01 Nov 2014 13:22:03 +0100
+
+perf-tools-unstable (0.0.1~20140723+git942be0b-3) unstable; urgency=medium
+
+  * Correct upstream homepage URL
+
+ -- Sebastien Delafond <seb@debian.org>  Mon, 22 Sep 2014 10:45:54 +0200
+
+perf-tools-unstable (0.0.1~20140723+git942be0b-2) unstable; urgency=low
+
+  * Initial release after name change (Closes: #755838)
+
+ -- Sebastien Delafond <seb@debian.org>  Wed, 23 Jul 2014 23:35:17 +0200
+
+perf-tools (0.0.1~20140723+git942be0b-1) unstable; urgency=low
+
+  * Initial release (Closes: #755838)
+
+ -- Sebastien Delafond <seb@debian.org>  Wed, 23 Jul 2014 21:36:14 +0200
+
