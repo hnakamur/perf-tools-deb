@@ -1,4 +1,4 @@
-Source: perf-tools-unstable
+Source: perf-tools
 Section: utils
 Priority: optional
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -6,10 +6,10 @@ XSBC-Original-Maintainer: Ritesh Raj Sarraf <rrs@debian.org>
 Build-Depends: debhelper (>= 9.0.0~)
 Standards-Version: 3.9.8
 Homepage: https://github.com/brendangregg/perf-tools
-Vcs-Git: https://anonscm.debian.org/git/collab-maint/perf-tools-unstable.git
-Vcs-Browser: https://anonscm.debian.org/git/collab-maint/perf-tools-unstable.git
+Vcs-Git: https://anonscm.debian.org/git/collab-maint/perf-tools.git
+Vcs-Browser: https://anonscm.debian.org/git/collab-maint/perf-tools.git
 
-Package: perf-tools-unstable
+Package: perf-tools
 Architecture: all
 Depends: ${misc:Depends}, linux-tools
 Conflicts: ubuntu-dev-tools

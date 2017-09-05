@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: perf-tools-unstable
-Source: https://github.com/brendangregg/perf-tools-unstable
+Upstream-Name: perf-tools
+Source: https://github.com/brendangregg/perf-tools
 
 Files: *
 Copyright: 2014 Brendan Gregg
