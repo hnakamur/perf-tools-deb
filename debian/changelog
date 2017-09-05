@@ -1,3 +1,10 @@
+perf-tools (1.0-1hnakamur1) xenial; urgency=medium
+
+  * Imported Upstream version 1.0
+  * Rename package to perf-tools
+
+ -- Hiroaki Nakamura <hnakamur@gmail.com>  Tue, 05 Sep 2017 21:09:55 +0900
+
 perf-tools-unstable (0.0.1~20160212+git0c13e83-2ubuntu2) artful; urgency=medium
 
   * No-change rebuild against binutils 2.29
